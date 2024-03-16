@@ -79,6 +79,6 @@ export const google = async (req, res, next) => {
       );
     }
   } catch (err) {
-    next(error);
+    next(err);
   }
 };
